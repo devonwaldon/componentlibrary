@@ -1,0 +1,50 @@
+/**
+
+This file structure is intended to clarify the location of styling rules, and is
+based loosely on Brad Frost's rules of Atomic Design (http://atomicdesign.bradfrost.com/chapter-2/).
+
+A high level overview of the desired structure is as follows:
+
+_chemist.scss		The master file; all includes should be done from here,
+					so that the file also serves as a 'table of contents'
+					for the entire directory.
+_equipment.scss     Any chemist needs a good set of tools; all utility classes
+                    should be contained in this file.
+ */
+
+
+
+/*--------------------------------------------------------------
+# ATOMS
+--------------------------------------------------------------*/
+@import 'atoms/html-basic';
+@import 'atoms/html-semantic';
+@import 'atoms/typography';
+@import 'atoms/typography-advanced';
+@import 'atoms/headings';
+@import 'atoms/links';
+@import 'atoms/buttons';
+@import 'atoms/forms';
+@import 'atoms/images';
+@import 'atoms/lists';
+@import 'atoms/tables';
+
+
+/*--------------------------------------------------------------
+# MOLECULES
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# ORGANISMS
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# TEMPLATES
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# PAGES
+--------------------------------------------------------------*/
